@@ -1,0 +1,74 @@
+{
+  "data-th-text": {
+    "prefix": ["thtext", "data-th-text", "th-text"],
+    "body": "data-th-text=\"${}\"",
+    "description": "Thymeleaf text"
+  },
+  "data-th-utext": {
+    "prefix": ["thutext", "data-th-utext", "th-utext"],
+    "body": "data-th-text=\"${}\"",
+    "description": "Thymeleaf html"
+  },
+  "data-th-each": {
+    "prefix": ["theach", "data-th-each", "th-each"],
+    "body": "data-th-each=\"tempVar : ${}\"",
+    "description": "Thymeleaf each"
+  },
+  "th:if": {
+    "prefix": ["thif", "th-if", "data-th-if"],
+    "body": "data-th-if=\"${}\"",
+    "description": "Thymeleaf if"
+  },
+  "data-th-value": {
+    "prefix": [
+      "thval",
+      "th-val",
+      "data-th-val",
+      "th-value",
+      "thvalue",
+      "data-th-value"
+    ],
+    "body": "data-th-value=\"${}\"",
+    "description": "Thymeleaf value"
+  },
+  "data-th-unless": {
+    "prefix": ["thunless", "th-unless", "data-th-unless"],
+    "body": "data-th-unless=\"${}\"",
+    "description": "Thymeleaf not if"
+  },
+  "data-th-classappend": {
+    "prefix": ["thclassappend", "th-classappend", "data-th-classappend"],
+    "body": "data-th-classappend=\"${}\"",
+    "description": "Thymeleaf value"
+  },
+  "data-th-src": {
+    "prefix": ["thsrc", "th-src", "data-th-src"],
+    "body": "data-th-src=\"${}\"",
+    "description": "Thymeleaf src"
+  },
+  "data-th-href": {
+    "prefix": ["thhref", "th-href", "data-th-href"],
+    "body": "data-th-href=\"${}\"",
+    "description": "Thymeleaf href"
+  },
+  "data-th-remove": {
+    "prefix": ["thremove", "th-remove", "data-th-remove"],
+    "body": "data-th-remove=\"tag\"",
+    "description": "Thymeleaf remove tag"
+  },
+  "data-th-action": {
+    "prefix": ["thaction", "th-action", "data-th-action"],
+    "body": "data-th-action=\"tag\"",
+    "description": "Thymeleaf form action"
+  },
+  "data-th-disabled": {
+    "prefix": ["thdisabled", "th-disabled", "data-th-disabled"],
+    "body": "data-th-disabled=\"tag\"",
+    "description": "Thymeleaf disabled button"
+  },
+  "data-th-attr": {
+    "prefix": ["thattr", "th-attr", "data-th-attr"],
+    "body": "data-th-attr=\"attrName = ${}\"",
+    "description": "Thymeleaf attribute"
+  }
+}

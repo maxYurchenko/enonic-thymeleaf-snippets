@@ -1,0 +1,24 @@
+{
+  "name": "enonicxpthymeleaf",
+  "displayName": "Enonic XP thymeleaf snippets",
+  "description": "Enonic XP thymeleaf snippets",
+  "version": "1.0.0",
+  "publisher": "myurchenko",
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/thymeleaf.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git"
+  }
+}
